@@ -60,7 +60,7 @@
 .btn {
     min-width: 100px;
     font-family: var(--fontStyle);
-    background-color: ;
+    background-color: none;
     font-weight: bold;
     font-size: 32px;
     padding: 1rem;
