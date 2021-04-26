@@ -1,5 +1,5 @@
 :root {
-    background-color: darkgray;
+    background-color: white;
     --borderRadius: 1rem;
     --fontStyle: 'sans-serif, Courier, monospace';
 }
@@ -22,33 +22,34 @@
     color: white;
 }
 
-.containerWrapper {
-    min-height: 400px;
-    height: 80%;
-    width: 100%;
+.container {
+    max-height: 80%;
+    width: 800px;
+    max-width: 80%;
     background-color: black;
     border-radius: var(--borderRadius);
-    padding: 0;
+    padding: 16px;
     margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.container {
+.input {
     background-color: blue;
     justify-content: center;
     align-items: center;
     text-align: center;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto auto;
     padding: 1rem;
     border-radius: var(--borderRadius);
 }
 
-.button {
+.btn {
     font-family: var(--fontStyle);
-    background-color: red;
+    background-color: ;
     font-weight: bold;
     font-size: 32px;
     padding: 1rem;
@@ -56,7 +57,8 @@
     border-radius: var(--borderRadius);
 }
 
-.button:hover {
+.btn:hover {
     cursor: pointer;
+    border-color: black;
     transform: scale(1.05);
 }
