@@ -1,35 +1,45 @@
 :root {
-    background-color: white;
+    background-image: url(../images/Back.jpg);
+    background-size: cover;
     --borderRadius: 1rem;
-    --fontStyle: 'sans-serif, Courier, monospace';
+    --fontStyle: sans-serif, Courier, monospace;
 }
 
 * {
-    font-size: 
-    font-family: "sans-serif";
+    font-family: var(--fontStyle);
+    margin: 0px;
 }
 
-.title {
-    font-family: var(--fontStyle);
+#timer {
     font-size: 32px;
     font-weight: bold;
     color: white;
+    margin: 16px;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
+    margin: 16px;
 }
 
 .bodyText {
-    font-family: var(--fontStyle);
-    font-size: 16px;
+    font-size: 32px;
     color: white;
+    margin: 16px;
 }
 
 .container {
+    min-height: auto;
     max-height: 80%;
-    width: 800px;
+    width: 80%;
     max-width: 80%;
-    background-color: black;
+    background-color: rgb(255,255,255,0.5);
     border-radius: var(--borderRadius);
+    /*box-shadow: -10px 10px rgb(0,0,0,0.2);*/
     padding: 16px;
-    margin: 0;
+    margin: 5% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,7 +47,7 @@
 }
 
 .input {
-    background-color: blue;
+    background-color: white;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -48,6 +58,7 @@
 }
 
 .btn {
+    min-width: 100px;
     font-family: var(--fontStyle);
     background-color: ;
     font-weight: bold;
@@ -61,4 +72,5 @@
     cursor: pointer;
     border-color: black;
     transform: scale(1.05);
+    color: rgb(0, 0, 0, 0.5);
 }
