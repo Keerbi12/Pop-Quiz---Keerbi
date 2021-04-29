@@ -1,5 +1,6 @@
 :root {
     background-image: url(../images/Back.jpg);
+    background-color: black;
     background-size: cover;
     --borderRadius: 1rem;
     --fontStyle: sans-serif, Courier, monospace;
@@ -13,20 +14,20 @@
 #timer {
     font-size: 32px;
     font-weight: bold;
-    color: black;
+    color: white;
     margin: 16px;
 }
 
 .title {
     font-size: 64px;
     font-weight: bold;
-    color: black;
+    color: white;
     margin: 16px;
 }
 
 .bodyText {
     font-size: 32px;
-    color: black;
+    color: white;
     margin: 16px;
 }
 
